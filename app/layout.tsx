@@ -11,11 +11,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   title: "Your Free Resource | Elevative",
   description:
-    "Watch a free framework on assertive communication from Mariana Marcano — then book your free 30-min leadership call.",
+    "Watch a free framework on assertive communication from Mariana Marcano, then book your free 30-min leadership call.",
   openGraph: {
     title: "Your Free Resource | Elevative",
     description:
-      "Watch a free framework on assertive communication from Mariana Marcano — then book your free 30-min leadership call.",
+      "Watch a free framework on assertive communication from Mariana Marcano, then book your free 30-min leadership call.",
     siteName: "Elevative",
   },
 };

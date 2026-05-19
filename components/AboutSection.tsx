@@ -1,42 +1,13 @@
 "use client";
 
-import { useRef, useState } from "react";
+import { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import Image from "next/image";
 
 const credentials = [
   "Change Management",
   "Leadership Development",
   "Keynote Speaker",
 ];
-
-function MarianaPhoto() {
-  const [imgError, setImgError] = useState(false);
-
-  if (imgError) {
-    return (
-      <div
-        className="w-28 h-28 rounded-full flex items-center justify-center text-white text-2xl font-black ring-4 ring-white shadow-lg select-none"
-        style={{ backgroundColor: "#8b22a8" }}
-        aria-label="Mariana Marcano"
-      >
-        MM
-      </div>
-    );
-  }
-
-  return (
-    <div className="relative w-28 h-28 rounded-full overflow-hidden ring-4 ring-white shadow-lg">
-      <Image
-        src="/images/mariana.jpg"
-        alt="Mariana Marcano"
-        fill
-        className="object-cover"
-        onError={() => setImgError(true)}
-      />
-    </div>
-  );
-}
 
 export default function AboutSection() {
   const ref = useRef(null);
@@ -51,7 +22,18 @@ export default function AboutSection() {
         transition={{ duration: 0.6, ease: "easeOut" }}
       >
         <div className="mb-6 flex justify-center">
-          <MarianaPhoto />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/mariana.jpg"
+            alt="Mariana Marcano"
+            style={{
+              width: "200px",
+              height: "200px",
+              borderRadius: "50%",
+              objectFit: "cover",
+              boxShadow: "0 4px 20px rgba(0,0,0,0.15)",
+            }}
+          />
         </div>
 
         <h3 className="text-xl font-bold text-[#111111] mb-2">

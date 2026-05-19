@@ -7,15 +7,14 @@ export default function Hero() {
     <section className="relative min-h-screen flex flex-col bg-white">
       {/* Logo */}
       <div className="px-6 pt-8 pb-0">
-        <span
-          className="text-2xl font-black tracking-tight"
-          style={{ color: "#8b22a8", fontFamily: "var(--font-inter)" }}
-        >
-          Elevative
-        </span>
+        <img
+          src="/images/logo.jpg"
+          alt="Elevative"
+          style={{ maxHeight: "48px" }}
+        />
       </div>
 
-      {/* Hero content — vertically centred in remaining space */}
+      {/* Hero content - vertically centred in remaining space */}
       <div className="flex flex-1 items-center justify-center px-6 py-16">
         <div className="max-w-2xl w-full text-center">
           <motion.h1
@@ -33,7 +32,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.65, delay: 0.18, ease: "easeOut" }}
           >
-            A free framework on assertive communication — because what you just
+            A free framework on assertive communication, because what you just
             heard in the room is only the beginning.
           </motion.p>
 

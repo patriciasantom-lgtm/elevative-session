@@ -26,7 +26,7 @@ export default function CTASection() {
           Let&apos;s talk about where you want to go as a leader.
         </h2>
         <p className="text-lg text-white/85 mb-10 leading-relaxed">
-          Book a free 30-min call. No pressure, no pitch — just a real
+          Book a free 30-min call. No pressure, no pitch. Just a real
           conversation.
         </p>
 

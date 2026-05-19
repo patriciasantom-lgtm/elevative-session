@@ -17,7 +17,7 @@ export default function BridgeSection() {
       >
         <p className="text-lg sm:text-xl text-[#333333] leading-relaxed mb-6">
           Liked what you saw? This is just one piece of the framework Mariana
-          teaches inside her leadership programme —{" "}
+          teaches inside her leadership programme,{" "}
           <span className="font-semibold text-[#8b22a8]">In Your Element</span>.
         </p>
         <p className="text-lg sm:text-xl text-[#333333] leading-relaxed">
