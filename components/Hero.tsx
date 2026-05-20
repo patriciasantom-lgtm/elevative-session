@@ -23,7 +23,7 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.65, ease: "easeOut" }}
           >
-            Watch this before you leave today.
+            Your free resource from today&apos;s session.
           </motion.h1>
 
           <motion.p
@@ -32,8 +32,8 @@ export default function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.65, delay: 0.18, ease: "easeOut" }}
           >
-            A free framework on assertive communication, because what you just
-            heard in the room is only the beginning.
+            A practical framework on assertive communication. Watch it when
+            you&apos;re ready — it&apos;s yours to keep.
           </motion.p>
 
           {/* Scroll arrow */}
