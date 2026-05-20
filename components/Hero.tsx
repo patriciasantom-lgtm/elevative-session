@@ -33,7 +33,7 @@ export default function Hero() {
             transition={{ duration: 0.65, delay: 0.18, ease: "easeOut" }}
           >
             A practical framework on assertive communication. Watch it when
-            you&apos;re ready — it&apos;s yours to keep.
+            you&apos;re ready, it&apos;s yours to keep.
           </motion.p>
 
           {/* Scroll arrow */}
